@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE BAKERY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+    <a href="#" class="logo"><i class="fas fa-birthday-cake"></i>cake</a>
+
+
+    <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">shop</a>
+        <a href="#">about</a>
+        <a href="#">review</a>
+        <a href="#">blog</a>
+        <a href="#">contact</a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+         <div id="cart-btn" class="fas fa-shopping-cart"></div>
+          <div id="logic-btn" class="fas fa-user"></div>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="slides-container">
+        <div class="slide">
+            <div class="content">
+               <span style="font-weight:bold;">Have a Cake-A-Licious</span>
+                <h3>Upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="backy.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide active">
+            <div class="content">
+                <span style="font-weight:bold;">Have a Cake-A-Licious</span>
+                <h3>Upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="backy.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+               <span style="font-weight:bold;">Have a Cake-A-Licious</span>
+                <h3>Upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="chocolate-cake.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+<section class="banner-container">
+    
+    <div class="banner">
+        <img src="bigpic.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="mango-cream-cake.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="whiteforest.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+</section>
+
+<!--category part-->
+
+<div class="heading">
+    <h1>Our Shop</h1>
+</div>
+
+<section class="category">
+    
+  <h1 class="title">our <span>category</span><a href="#">view all>></a></h1>
+<div class="box-container">
+
+    <a href="#" class="box">
+        <img src="cupcake.jpg"alt="">
+        <h3>Fresh cupcakes</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="cookies.jpeg"alt="">
+        <h3>Cookies</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="brownbread.jpeg" alt="">
+        <h3>brown bread</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="darkchoco.png" alt="">
+        <h3>Dark Chocolate</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="wheat.jpeg" alt="">
+        <h3>Wheat</h3>
+    </a>
+</div>
+
+</section>
+
+<!---Sandeepa products section--->
+
+<section class="products">
+
+  <h1 class="title">
+    our <span>products</span>
+    <a href="#">view all >></a>
+  </h1>
+
+  <div class="box-container">
+
+    <!-- Product 1 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="citrus.jpg" alt="berries citrus fruits apples">
+      </div>
+      <div class="content">
+        <h3>berries citrus fruits apples</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="mango-cream-cake.jpg" alt="fresh mellow color ripe">
+      </div>
+      <div class="content">
+        <h3>fresh mellow color ripe</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="rosecake.jpg " alt="rose color cake">
+      </div>
+      <div class="content">
+        <h3>Rose color cake</h3>
+        <div class="price">$1.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="Nutella-Strawberry-Cake-Roll-3.jpg" alt="strawberry nutella cake">
+      </div>
+      <div class="content">
+        <h3>strawberry nutella cake</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="green bread.jpg" alt="green bread cake">
+      </div>
+      <div class="content">
+        <h3>green bread cake</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="red berry.jpg" alt="red berries chocolate cake">
+      </div>
+      <div class="content">
+        <h3>red berries chocolate cake</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="Strawberry-Shortcake-Cake-Recipe-3.jpg" alt="strawberry cake">
+      </div>
+      <div class="content">
+        <h3>strawberry cake</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="img">
+        <img src="chocolate-cake.jpg" alt="dark chocolate cake">
+      </div>
+      <div class="content">
+        <h3>dark chocolate cake</h3>
+        <div class="price">$9.99</div>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!---About section start-->
+
+<div class="heading">
+       <h1>About us</h1>
+    </div>
+    <section class="about">
+        <div class="img">
+            <img src="Strawberry-Shortcake-Cake-Recipe-3.jpg" alt="">
+        </div>
+        <div class="content">
+            <span>Welcome to our products</span>
+            <p>“Have a Cake-A-Licious” is a cheerful and tempting cake advertisement that invites customers to 
+                indulge in the joy of delicious desserts. The phrase suggests a delightful, mouth-watering 
+                experience where every bite of cake feels special and satisfying. It highlights celebration, 
+                happiness, and sweetness, making cakes feel like the perfect choice for moments of joy, treats,
+                and celebrations.</p>
+            <p>“Have a Cake-A-Licious” perfectly sums up the joy and indulgence that cakes bring to everyday life. 
+                It leaves a lasting impression by associating the brand with happiness, celebration, and 
+                irresistible taste. The slogan encourages customers to treat themselves and make every moment 
+                sweeter with a delicious slice of cake.</p>
+        <a href="#"class="btn">read more</a>
+        </div>
+    </section>
+
+    <section class="gallery">
+          <h1 class="title">our <span>gallery</span><a href="#">view all>></a></h1>
+          <div class="box-container">
+
+            <div class="box">
+                <img src="gal 1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+             </div>
+            </div>
+
+            <div class="box">
+                <img src="gal2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+            </div>
+        </div>
+
+                    <div class="box">
+                <img src="gal 3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+             </div>
+            </div>
+                        <div class="box">
+                <img src="mango-cream-cake.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+             </div>
+            </div>
+                        <div class="box">
+                <img src="gal 5.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+             </div>
+            </div>
+                        <div class="box">
+                <img src="gal 6.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt "></a>
+             </div>
+            </div>
+            
+            
+          </div>
+    </section>
+
+    <!-- subhalagna review section -->
+     
+<div class= "heading"> 
+    <h1>clients review</h1>
+</div>
+
+
+<!-- review section start -->
+<section class= "review">
+
+  <div class="box">
+    <div class="user">
+      <img src="customer 1.jpg" alt="">
+      <div class="info">
+        <h3>Prity samuel</h3>
+        <span>Happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+        <p>"Fast delivery and excellent product quality.Very satisfied with the service.."</p>
+  </div>
+
+  <div class="box">
+    <div class="user">
+      <img src="customer2.jpg" alt="">
+      <div class="info">
+        <h3>Jenna bey</h3>
+        <span>Happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+        <p>"The website was easy to use and the overall experience was smooth.."</p>
+  </div>
+
+  <div class="box">
+    <div class="user">
+      <img src="customer 3.jpg" alt="">
+      <div class="info">
+        <h3>Ekta singh</h3>
+        <span>happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <i class="far fa-star"></i>
+    </div>
+        <p>“Simple process, secure payment, and timely delivery.”</p>
+  </div>
+
+  <div class="box">
+    <div class="user">
+      <img src="customer 4.jpg" alt="">
+      <div class="info">
+        <h3>Ranbeer shah</h3>
+        <span>happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+        <p>“Product quality exceeded my expectations. Will shop again.”</p>
+  </div>
+
+  <div class="box">
+    <div class="user">
+      <img src="customer 5.jpg" alt="">
+      <div class="info">
+        <h3>Samin bey</h3>
+        <span>happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+        <p>“Very smooth shopping experience and impressive quality. Almost perfect!”</p>
+  </div>
+
+  <div class="box">
+    <div class="user">
+      <img src="customer 6.jpg" alt="">
+      <div class="info">
+        <h3>Lalisa bey</h3>
+        <span>happy client</span>
+      </div>
+    </div>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+        <p>“Great support team and quick response. Highly recommended!”</p>
+  </div>
+
+</section>
+
+<section class= "info-container">
+    <div class= "info">
+        <img src = "icons-1.png" alt="">
+        <div class = "content">
+            <h3>fast delivery</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class= "info">
+        <img src = "icons-2.png" alt="">
+        <div class = "content">
+            <h3>24/7 available</h3>
+            <span>call us any time</span>
+        </div>
+    </div>
+    <div class= "info">
+        <img src = "icons-3.png" alt="">
+        <div class = "content">
+            <h3>easy payments</h3>
+            <span>cash or credit</span>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- blog section start -->
+
+<div class= "heading"> 
+    <h1>our blogs</h1>
+</div>
+
+<section class="blogs">
+  <h1 class="title"> our  <span>blogs</span> <a href="#">view all</a> </h1>
+  <div class="box-container">
+
+    <div class="box">
+      <div class="img">
+        <img src="chai-cake-PIN-7.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="img">
+        <img src="jelly.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="img">
+        <img src="blackforest.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="img">
+        <img src="velvetcake.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="img">
+        <img src="aam.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="img">
+        <img src="Strawberry-Cake.jpg" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calendar"></i> 12 jan, 2022</a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+       <h3>blogs title page</h3>
+       <p>Lorem ipsum dolor sit amet, farhan aliqua. Ut enim ad minim venima, quis</p>
+       <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Sagarika Contect Section-->
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+111-222-3333</p>
+            <p>+456-786-7890</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>shaikhfarhan@gmail.com</p>
+            <p>xyzemail@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>mumbai, india - 401203</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name" class="box">
+                <input type="text" placeholder="Email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Contact" class="box">
+                <input type="text" placeholder="Subject" class="box">
+            </div>
+            <textarea placeholder="your message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14395.273548824342!2d91.87668235290701!3d25.577708294437844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37507fb248ce6fcf%3A0x565c5d6583ab2096!2sLittle%20Chef%20Bakery!5e0!3m2!1sen!2sin!4v1768070050781!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<div class="space"></div>
+
+<!--footer Section-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Review</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>my favorite</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>terms or use</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"> <i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+            <a href="#"> <i class="fab fa-pinterest"></i>pinterest</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+                <input type="email" placeholder="enter your email address">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+            <div class="payment-icons">
+                <div class="pay-box">
+                    <img src="visa_logo_7.jpg" alt="Visa">
+                </div>
+                <div class="pay-box">
+                    <img src="mastercard.jpg" alt="MasterCard">
+                </div>
+                <div class="pay-box">
+                    <img src="applepay.jpg" alt="Apple Pay">
+                </div>
+                <div class="pay-box">
+                    <img src="gpay.jpg" alt="Google Pay">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <section class="credit">This Mini Project done by Sandeepa Patra</section>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
