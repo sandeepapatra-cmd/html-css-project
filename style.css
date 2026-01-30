@@ -262,7 +262,7 @@ section{
 }
 
 .category .title a{
-    font-size: 3rem;
+    font-size: ;
 }
 
 .category .box-container .box{
@@ -306,8 +306,8 @@ section{
 }
 
 .products .title a{
-    font-size: 3rem;
-    color: #fff;
+    font-size: ;
+    color: #0e0d0d;
 }
 .products .title a:hover{
     color: #222;
